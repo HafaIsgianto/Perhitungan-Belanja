@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Perhitungan Diskon</title>
+    </head>
+    <body>
+        <h1>Hitung Total Belanja</h1>
+        <form action="proses_belanja.php" method="post">
+            <label for="isMember">Apakah Anda member?</label><br>
+            <select id="isMember" name="isMember">
+                <option value="yes">Ya</option>
+                <option value="no">Tidak</option>
+            </select><br><br>
+    
+            <label for="total_belanja">Masukkan total belanja:</label><br>
+            <input type="text" id="total_belanja" name="total_belanja" placeholder="0"><br><br>
+    
+            <input type="submit" value="Hitung">
+        </form>
+    </body>
+    </html>
+    
